@@ -38,7 +38,7 @@ app.post("/api/check-url", (req, res) => {
   }
 
   const candidate = url.trim();
-  const withScheme = /^https?:\\/\\//i.test(candidate) ? candidate : `https://${candidate}`;
+  const withScheme = /^https?:\/\//i.test(candidate) ? candidate : `https://${candidate}`;
 
   try {
     const parsed = new URL(withScheme);
