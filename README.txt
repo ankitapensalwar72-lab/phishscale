@@ -1,23 +1,54 @@
-PHISHSCALE - COMPLETE LOCAL DEMO
+PhishScale – Cybersecurity Awareness Project
 
-FILES
-- index.html: complete frontend
-- backend/server.js: Express API
-- backend/package.json: backend dependencies
+About the Project
 
-SETUP ON MAC
-1. Unzip this folder.
-2. Open the unzipped PhishScale_complete folder in VS Code.
-3. Open Terminal and run:
-   cd backend
-   npm install
-   node server.js
-4. Keep that terminal open.
-5. Open index.html in VS Code and click Go Live (Live Server extension), OR open the file in your browser.
-6. Use the URL Checker and test https://example.com.
+PhishScale is a cybersecurity awareness project designed to help users understand phishing attacks and learn how to identify suspicious emails, messages, and URLs. It provides an educational platform for improving online safety and cybersecurity knowledge.
 
-IMPORTANT
-- The API only checks URL syntax and basic warning signs. It does NOT query threat intelligence and cannot confirm a URL is safe.
-- Dashboard campaign figures are demo placeholders. Campaigns and activity are stored in browser memory and reset on reload.
-- No emails are sent; no credentials are collected.
-- If port 3000 is already in use, stop the previous server with Control+C in its terminal before starting again.
+Objectives
+
+- To spread awareness about phishing attacks.
+- To help users recognize suspicious links and messages.
+- To provide cybersecurity training and quizzes.
+- To demonstrate URL checking and basic analytics.
+- To encourage safe internet practices.
+
+Features
+
+- Dashboard: Displays project activity and summary information.
+- Campaigns: Demonstrates educational phishing campaign examples.
+- Training & Quiz: Helps users test their cybersecurity knowledge.
+- URL Review Helper: Allows users to review URLs for suspicious indicators.
+- Analytics: Displays training and quiz performance information.
+
+Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- Node.js
+- Express.js
+
+How to Run the Project
+
+1. Install Node.js.
+2. Open the project folder in a terminal.
+3. Install dependencies using "npm install" in the backend folder.
+4. Start the server using the configured start command.
+5. Open the local address shown by the server in your browser.
+
+Educational Purpose
+
+PhishScale is intended for cybersecurity education and awareness. Its demonstrations should be used responsibly and only in authorized environments.
+
+Future Scope
+
+- Improve URL risk detection.
+- Add more training modules and quiz questions.
+- Enhance analytics and reporting.
+- Deploy the application online for wider access.
+
+Author
+
+Ankita Pensalwar
+
+PhishScale ©️ 2026 | Cybersecurity Awareness Project
